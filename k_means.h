@@ -56,4 +56,4 @@ public:
     void kMeansAlgo(vector<Point> &points);
 };
 
-#endif
+#endif //__K_MEANS_H__
