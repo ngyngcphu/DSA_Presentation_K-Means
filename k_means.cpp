@@ -215,7 +215,7 @@ void KMeans::kMeansAlgo(vector<Point> &points)
     for (int i{0}; i < K; ++i)
     {
         cout << "Cluster " << clusters[i].getId() + 1 << ": ";
-        outFile << "Cluster " << clusters[i].getId() + 1 << ": ";
+        outFile << "Cluster " << clusters[i].getId() + 1 << endl;
         for (int j{0}; j < total_attr; ++j)
         {
             cout << clusters[i].getCenterAttr(j) << " ";
